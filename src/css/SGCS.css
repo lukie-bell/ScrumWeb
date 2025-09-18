@@ -1,0 +1,13 @@
+p{
+    color: #2d588d;
+    font-size: large;
+}
+h2{
+    color: #17365c;
+    font-size: x-large;
+}
+/* Selecciona la imagen */
+img .codigo {
+  float: right; /* Puede ser left o right según quieras */
+  margin: 0 0 1em 1em; /* Espacio entre imagen y texto */
+}

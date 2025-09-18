@@ -1,0 +1,41 @@
+    main {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: rgba(216, 238, 246, 0.9); 
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+    }
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../assets/fondo.png");
+    background-size: cover; 
+    background-attachment: fixed; 
+    background-position: center;  
+}
+.marco{
+    background: #7897bc;
+}
+h1{
+        color: #17365c;
+}
+img .pc{
+    float: right;
+    margin: 0 0 1em 1em; 
+}
+
+::-webkit-scrollbar {
+    width: 10px; 
+}
+
+::-webkit-scrollbar-track {
+    background: #d6d6d6; 
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1f3a5f; 
+    border-radius: 10px;
+}
