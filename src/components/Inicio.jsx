@@ -4,7 +4,13 @@ import { useEffect } from "react";
 import {} from "../css/Inicio.css";
 import {} from "../css/fondo.css";
 import laptop from "../assets/laptop.png";
-
+import SGDC from "../assets/Texto (1).png"
+import Procesos from "../assets/Texto (2).png"
+import Metodologías from "../assets/Texto (3).png"
+import recursos from "../assets/Texto (4).png"
+import nosotros from "../assets/Texto (5).png"
+import Comparador from "../assets/Texto (6).png"
+import Encuesta from "../assets/Texto (7).png"
 
 export const Inicio = () =>{
         const navigate = useNavigate();
@@ -22,32 +28,27 @@ export const Inicio = () =>{
 
     <div class="cards">
         <div class="card" onClick={() => navigate("/SGCS")}>
-            <h2>SGCS</h2>
-            <img src={laptop} alt="Laptop" width={250} height={250}/>
+            <img src={SGDC} alt="Laptop" width={250} height={250}/>
             <p>Descubra fundamentos, técnicas y herramientas</p>
         </div>
 
         <div class="card" onClick={() => navigate("/Procesos")}>
-            <h2>Procesos</h2>
-            <img src={laptop} alt="Laptop" width={250} height={250}/>
+            <img src={Procesos} alt="Laptop" width={250} height={250}/>
             <p>Descubra todo acerca del ciclo de vida del desarrollo y modelos tradicionales</p>
         </div>
 
-        <div class="card">
-            <h2>Metodologías</h2>
-            <img src={laptop} alt="Laptop" width={250} height={250}/>
+        <div class="card" onClick={() => navigate("/Metodologia")}>
+            <img src={Metodologías} alt="Laptop" width={250} height={250} />
             <p>Descubra metodologías ágiles como Scrum, Kanban, XP, y más</p>
         </div>
 
-        <div class="card">
-            <h2>recursos</h2>
-            <img src={laptop} alt="Laptop" width={250} height={250}/>
+        <div class="card" onClick={() => navigate("/Recursos")}>
+            <img src={recursos} alt="Laptop" width={250} height={250}/>
             <p>Aqui encontrará información importante como: glosario, preguntas frecuentes, etc.</p>
         </div>
 
-        <div class="card">
-            <h2>nosotros</h2>
-            <img src={laptop} alt="Laptop" width={250} height={250}/>
+        <div class="card"  onClick={() => navigate("/Nosostros")}>
+            <img src={nosotros} alt="Laptop" width={250} height={250}/>
             <p>Información acerca del   equipo detrás de la página y su motivación</p>
         </div>
 
@@ -56,14 +57,12 @@ export const Inicio = () =>{
         <div class="marcoOsc">
         
             <div class="card">
-                <h2>Comparador</h2>
-                <img src={laptop} alt="Laptop" width={250} height={250}/>
+                <img src={Comparador} alt="Laptop" width={250} height={250}/>
                 <p>Genere interesantes cuadros comparativos a partir de dos o mas metodologías!</p>
             </div>
 
             <div class="card">
-                <h2>Encuesta</h2>
-                <img src={laptop} alt="Laptop" width={250} height={250}/>
+                <img src={Encuesta} alt="Laptop" width={250} height={250}/>
                 <p>Descubra la mejor metodología para su proyecto de software con nuestra encuesta interactiva!</p>
             </div>
         </div>

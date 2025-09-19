@@ -12,6 +12,8 @@ export const Procesos = () =>{
                 <h1> Procesos </h1>
                 <img src={PC} alt=""  class="pc" width={300} height={300}/>
             </div>
+
+            
     </main>
     );
 }

@@ -1,15 +1,47 @@
 p{
+    font-family: 'Montserrat', sans-serif;
     color: #2d588d;
     font-size: large;
     margin: 5px;
 }
+
 h2{
+    font-family: 'Montserrat', sans-serif;
+    color: #17365c;
+    font-size: xx-large;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
     color: #17365c;
     font-size: x-large;
 }
 
-img .codigo {
+.texto {
     display: block;
-    margin: 5 px;
-    width: 50%;
+    text-align: left;
+}
+
+p{
+    text-align: left;
+}
+img.pc {
+    float: left;
+    margin: 10px;
+    width: 300px;
+    height: auto;
+}
+
+img.codigo {
+    float: right;
+    margin: 10px;
+    width: 500px;
+    height: auto;
+}
+
+img.herramientas {
+    float: left;
+    margin: 10px;
+    width: 300px;
+    height: auto;
 }

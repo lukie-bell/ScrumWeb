@@ -12,12 +12,12 @@ export const HeaderUNI = () => {
     </div>
     <nav>
         <ul>
-            <li><a onClick={() => navigate("/")}>inicio</a></li>
+            <li><a onClick={() => navigate("/")}>INICIO</a></li>
             <li><a onClick={() => navigate("/SGCS")}>SGCS</a></li>
-            <li><a onClick={() => navigate("/Procesos")}>procesos</a></li>
-            <li><a onClick={() => navigate("/Metodologías")}>metodologías</a></li>
-            <li><a onClick={() => navigate("Recursos")}>recursos</a></li>
-            <li><a onClick={() => navigate("Nosotros")}>nosotros</a></li>
+            <li><a onClick={() => navigate("/Procesos")}>PROCESOS</a></li>
+            <li><a onClick={() => navigate("/Metodologia")}>METODOLOGIAS</a></li>
+            <li><a onClick={() => navigate("/Recursos")}>RECURSOS</a></li>
+            <li><a onClick={() => navigate("/Nosostros")}>NOSOTROS</a></li>
         </ul>
         </nav>
     </header>
