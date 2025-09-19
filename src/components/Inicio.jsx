@@ -27,7 +27,7 @@ export const Inicio = () =>{
             <p>Descubra fundamentos, técnicas y herramientas</p>
         </div>
 
-        <div class="card">
+        <div class="card" onClick={() => navigate("/Procesos")}>
             <h2>Procesos</h2>
             <img src={laptop} alt="Laptop" width={250} height={250}/>
             <p>Descubra todo acerca del ciclo de vida del desarrollo y modelos tradicionales</p>

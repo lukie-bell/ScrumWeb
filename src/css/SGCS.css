@@ -1,13 +1,15 @@
 p{
     color: #2d588d;
     font-size: large;
+    margin: 5px;
 }
 h2{
     color: #17365c;
     font-size: x-large;
 }
-/* Selecciona la imagen */
+
 img .codigo {
-  float: right; /* Puede ser left o right según quieras */
-  margin: 0 0 1em 1em; /* Espacio entre imagen y texto */
+    display: block;
+    margin: 5 px;
+    width: 50%;
 }
