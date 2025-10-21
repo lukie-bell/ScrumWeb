@@ -1,0 +1,20 @@
+
+img.pc {
+    width: 120px;
+    height: auto;
+}
+img.libro_text {
+    float: right;
+    margin: 10px;
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+img.links {
+    float: right;
+    margin: 10px;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+}

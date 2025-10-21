@@ -25,7 +25,7 @@
     justify-content: center;
     align-items: center;
     background-color: #0d243f;
-    height: 150px;
+    height: auto;
     width: 25%;
     display: flex;
     font-weight: bold;
@@ -46,13 +46,14 @@ nav ul {
 nav a {
   text-decoration: none;
   color: white;
-  font-size: xx-large;
+  font-size: x-large;
   transition: color 0.3s;
   display: block;
   text-align: center;
   padding: 15px 25px;
   width: 100%;
 }
+
 
 nav a:hover {
   color: #07c4e1;
@@ -71,6 +72,7 @@ nav li {
 
 nav li:hover {
   background-color: #0d243f;
+  margin: 10px;
   border-radius: 10px;
 }
 

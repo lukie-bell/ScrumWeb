@@ -21,24 +21,24 @@ export const SGCS = () =>{
                 La gestión de la calidad del software busca asegurar que un producto cumpla con las necesidades de los usuarios, que sea confiable y fácil de mantener. Su objetivo es garantizar que el software funciones de manera eficiente en distintos entornos y cumpla con los estándares reconocidos. Para ello se usan métricas de calidad que permuten evaluar aspectos como la funcionalidad, la seguridad, la eficiencia, la portabilidad y la usabilidad. Gracias a estas prácticas, se minimizan errores y se le ofrece al cliente un producto de confianza y buena calidad.
             </p>
 
-            <br />
-            <br />
+            
+            
             <h3>• ISO 9126/25000</h3> 
             <p>
             La norma ISO 9126 fue de las primeras en definir características esenciales de la calidad del software, dividiéndola en atributos como la funcionabilidad, confiabilidad, usabilidad, eficiencia, mantenibilidad y portabilidad. Más adelante la remplazaron por la ISO/IEC 25000, conocida como SQauRE (Software Product Quality Requirements and Evaluation), que amplia y actualiza estas métricas. Estas normas sirven como guía internacional para medir y evaluar la calidad de un software, permitiendo que los proyectos tengan un marco de referencia común y confiable.
             </p>
 
             <img src={codigo} width={500} height={300} alt="" class="codigo" />
-            <br />
-            <br />
+            
+            
 
             <h2>Técnicas de aseguramiento desoftware</h2>
                 <p>
                 Son el conjunto de prácticas y actividades aplicadas a lo largo del ciclo de vida para garantizar la calidad del producto y del proceso: previenen y detectan defectos, verifican que se cumplan los requisitos y validan que el software funcione en condiciones reales.
             </p>
 
-            <br />
-            <br />
+            
+            
 
             <h3>•PRUEBAS DE SOFTWARE</h3>
             <p>            
@@ -51,8 +51,8 @@ export const SGCS = () =>{
                 Requiere conocimientos de programación y permite identificar errores ocultos en la lógica o estructuras mal implementadas.
             </p>
 
-            <br />
-            <br />
+            
+            
 
             <h3>•Pruebas de caja negra</h3>
             <p>
@@ -60,45 +60,45 @@ export const SGCS = () =>{
                 y valida que las salidas sean las esperadas, asegurando que el sistema cumpla los requisitos funcionales definidos.
             </p>
 
-            <br />
-            <br />
+            
+            
 
             <h3>•PRUEBA UNITARIA</h3>
             <p>
                 Evalúa módulos o componentes individuales del software. El objetivo es asegurar que cada parte aislada funcione de acuerdo con lo esperado. Son pruebas rápidas y suelen automatizarse para mayor eficacia.
             </p>
 
-            <br />
-            <br />
+            
+            
 
             <h3> •PRUEBA DE INTEGRACION </h3>
             <p>Verifica cómo interactúan los distintos módulos entre sí. Su meta es encontrar errores en la comunicación y compatibilidad de componentes. Permite descubrir problemas que no se ven en pruebas unitarias.
             </p>
 
-            <br />
-            <br />
+            
+            
 
             <h3>•Prueba de sistema:</h3>
             <p>Examina el software completo como un todo. Acá se valida que el sistema cumpla con los requerimientos funcionales y no funcionales establecidos en la especificación.</p>
     
-                <br />
-            <br />
+                
+            
 
             <h3>•Prueba de aceptación: </h3>
             <p>
                 Se realizan junto al cliente o usuario final, con el fin de comprobar que el software satisface sus necesidades reales. Es la última etapa antes de la entrega del producto
             </p>
 
-            <br />
-            <br />
+            
+            
 
             <h2>Herramientas de calidad</h2>
             <p>
                 Son aplicaciones que automatizan y organizan las actividades de aseguramiento
             </p>
 
-            <br />
-            <br />
+            
+            
 
             <h3>•Herramientas de gestión de pruebas</h3>
             <p>
@@ -108,26 +108,26 @@ export const SGCS = () =>{
             </p>
 
 
-            <br />
-            <br />
+            
+            
 
             <img src={herramientas} alt="" class="herramientas" />
             <h3>•Seguimiento de defectos:</h3>
             <p>
                 Registran errores detectados durante las pruebas, asignan prioridades y los distribuyen entre los desarrolladores para su corrección. Fundamentales para mantener trazabilidad y garantizar que no queden problemas sin resolver.
             </p>
-            <br />
-            <br />
+            
+            
 
             <h3>•Análisis de calidad:</h3>
             <p>
                 Examinan el código fuente para detectar malas prácticas, vulnerables o posibles fallos antes de ejecutar el software. Ejemplos son SonarQube para análisis estático y Selenium 
             </p>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+            
+            
+            
+            
+            
             </div>
 
     </main>

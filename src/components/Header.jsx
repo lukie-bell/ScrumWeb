@@ -13,7 +13,7 @@ export const HeaderUNI = () => {
     <nav>
         <ul>
             <li><a onClick={() => navigate("/")}>INICIO</a></li>
-            <li><a onClick={() => navigate("/SGCS")}>SGCS</a></li>
+            <li><a onClick={() => navigate("/SGCS")}>SISTEMAS DE GESTION DE CALIDAD DE SOFTWARE</a></li>
             <li><a onClick={() => navigate("/Procesos")}>PROCESOS</a></li>
             <li><a onClick={() => navigate("/Metodologia")}>METODOLOGIAS</a></li>
             <li><a onClick={() => navigate("/Recursos")}>RECURSOS</a></li>
