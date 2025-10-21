@@ -5,13 +5,14 @@ import {} from "../css/Metodologia.css";
 import scrum_esjemplo from "../assets/imagen_2025-10-20_132429446-removebg-preview.png";
 import Siclo from "../assets/siclo_sprint.png";
 import roles from "../assets/Roles-SCRUM.jpg"
+import kambam from "../assets/kamban.png"
 export const Metodologia = () =>{
         //const navigate = useNavigate();
     return(
         <main>
             <div class="marco">
-                <h1> Metodologia </h1>
-                <img src={scrum_esjemplo} alt=""  class="pc" width={300} height={300}/>
+                <h1> METODOLOGIAS </h1>
+                <img src={scrum_esjemplo} alt=""  class="pc"/>
             </div>
             <div class="texto">
                 <h2>SCRUM</h2>
@@ -72,17 +73,17 @@ export const Metodologia = () =>{
                 
                 <h3>SCRUM MASTER</h3>
                 <p>
-                    texto
+                    El Scrum Master es el facilitador del equipo. Su principal función es asegurar que el proceso Scrum se aplique correctamente, eliminando obstáculos y promoviendo la colaboración. Actúa como un guía, ayudando al equipo a mejorar continuamente y fomentando un ambiente de trabajo productivo y saludable.
                 </p>
                 
                 <h3>PRODUCT OWNER</h3>
                 <p>
-                    texto
+                    El Product Owner representa la voz del cliente y se encarga de definir la visión del producto. Prioriza las tareas del backlog, comunica los objetivos al equipo de desarrollo y garantiza que cada entrega aporte valor al usuario final. Es el nexo entre el cliente y el equipo técnico.
                 </p>
 
                 <h3>EQUIPO DE DESAROLLO</h3>
                 <p>
-                    texto
+                    El Equipo de Desarrollo está compuesto por profesionales que transforman los requerimientos en un producto funcional. Son responsables de planificar, diseñar, construir y probar los incrementos del producto en cada sprint, colaborando de manera autónoma y autoorganizada para alcanzar los objetivos definidos.
                 </p>
 
                 <h2>KAMBAN</h2>
@@ -96,22 +97,34 @@ export const Metodologia = () =>{
                 <p>
                     Una de sus características clave es el WIP (Work In Process), que limita la cantidad de tareas que pueden estar en progreso simultáneamente, evitando la sobrecarga y ayudando a mantener la productividad. Además, al no tener fechas de entrega rígidas, el método promueve la mejora continua y la eficiencia, pero requiere disciplina para evitar retrasos por perfeccionismo o procrastinación. La información visual que proporciona el tablero ayuda a identificar problemas, ajustar prioridades y optimizar la distribución de tareas entre los miembros del equipo, logrando un flujo de trabajo más equilibrado y transparente.
                 </p>
-                //grafico
+
+                <img src={kambam} alt=""  class="kamban"/>
 
                 <h3>VENTAJAS</h3>
-                <p>Ofrece una visión visual y actualizada del proceso de trabajo, lo que facilita la organización y la detección de problemas.</p>
-                <p>Mejora la comunicación y la colaboración dentro del equipo, ya que todos pueden ver el estado de las tareas en tiempo real.</p>
-                <p>Permite adaptarse fácilmente a cambios de prioridades sin necesidad de re planificar todo el proyecto.</p>
-                <p>El uso del WIP ayuda a mantener el enfoque y evita la saturación del equipo.</p>
-                <p>Fomenta la mejora continua y la eficiencia operativa.</p>
+                <p>•Ofrece una visión visual y actualizada del proceso de trabajo, lo que facilita la organización y la detección de problemas.</p>
+                <p>•Mejora la comunicación y la colaboración dentro del equipo, ya que todos pueden ver el estado de las tareas en tiempo real.</p>
+                <p>•Permite adaptarse fácilmente a cambios de prioridades sin necesidad de re planificar todo el proyecto.</p>
+                <p>•El uso del WIP ayuda a mantener el enfoque y evita la saturación del equipo.</p>
+                <p>•Fomenta la mejora continua y la eficiencia operativa.</p>
 
                 <h3>DESVENTAJAS</h3>
-                <p>Al no contar con plazos fijos, puede generar retrasos si el equipo no se gestiona con disciplina.</p>
-                <p>Si el tablero no se actualiza correctamente, puede perder su utilidad y generar confusión.</p>
-                <p>En equipos grandes, puede ser más difícil mantener la coordinación y el control del flujo.</p>
-                <p>Requiere compromiso constante para mantener la visibilidad y el equilibrio del trabajo.</p>
+                <p>•Al no contar con plazos fijos, puede generar retrasos si el equipo no se gestiona con disciplina.</p>
+                <p>•Si el tablero no se actualiza correctamente, puede perder su utilidad y generar confusión.</p>
+                <p>•En equipos grandes, puede ser más difícil mantener la coordinación y el control del flujo.</p>
+                <p>•Requiere compromiso constante para mantener la visibilidad y el equilibrio del trabajo.</p>
 
-                <h2>roles</h2>
+                <h2>ROLES</h2>
+                <p>En Kanban no existen roles rígidos, pero sí funciones colaborativas que permiten un flujo de trabajo equilibrado.</p>
+
+                <h3>ADMINISTRADOR DEL FLUJO</h3>
+                <p>es quien supervisa la carga de trabajo y asegura que las tareas se muevan correctamente por las etapas del tablero. Se encarga de identificar bloqueos y coordinar soluciones.</p>
+
+                <h3>EQUIPO DE DESARROLLO</h3>
+                <p>compuesto por los miembros que realizan las tareas técnicas, de diseño o documentación. Su trabajo se centra en mantener el ritmo del flujo y cumplir los plazos sin comprometer la calidad.</p>
+
+                <h3>SUPERVISADOR O LIDER</h3>
+                <p>compuesto por los miembros que realizan las tareas técnicas, de diseño o documentación. Su trabajo se centra en mantener el ritmo del flujo y cumplir los plazos sin comprometer la calidad.</p>
+
             </div>
     </main>
     );

@@ -8,13 +8,15 @@ import cascada from "../assets/cascada.png"
 import V from "../assets/V.png"
 import iteraccion from "../assets/iteraccion.png"
 import incrementacion from "../assets/incrementacion.png"
+import kamba from "../assets/kamba_graf1.png";
+import XP from "../assets/XP_graf.png";
 export const Procesos = () =>{
         //const navigate = useNavigate();
     return(
         <main>
             <div class="marco">
-                <h1> Procesos </h1>
-                <img src={PC} alt=""  class="pc" width={300} height={300}/>
+                <h1> PROCESOS </h1>
+                <img src={PC} alt=""  class="pc"/>
             </div>
             <div class="texto">
                 <h2>El ciclo de vida del software (SDLC) </h2>
@@ -29,18 +31,19 @@ export const Procesos = () =>{
                     En esta fase se identifican y documentan las necesidades del cliente, así como las funcionalidades que debe cumplir el sistema. 
                     Es crucial porque de acá surgen las bases del proyecto y se definen los objetivos a alcanzar.
                 </p>
-                
+                <img src={mujer} alt="" class="mujer" width={500} height={300}/>
                 <h3>•Etapa 2: Diseño</h3>
                 <p>
                     Consiste en transformar los requisitos en una arquitectura técnica que guíe el desarrollo.
                     Se definen diagramas, interfaces, estructuras de datos y modelos que servirán como plano para la programación.
                 </p>
+                
                 <h3>•Etapa 3: Implementación</h3>
                 <p>
                     En esta etapa los programadores convierten el diseño en código funcional. 
                     Se desarrollan los módulos del software, integrando las funciones planificadas y asegurando su correcto funcionamiento inicial.
                 </p>
-                <img src={mujer} alt="" class="mujer" width={500} height={300}/>
+
                 <h3>•Etapa 4: Pruebas</h3>
                 <p>Se realizan distintos tipos de pruebas para validar que el software cumple con los requisitos planteados y que no existan errores críticos. 
                     El objetivo es garantizar calidad, rendimiento y confiabilidad del sistema.
@@ -97,22 +100,24 @@ export const Procesos = () =>{
                 //Grafico
 
                 <h2>Kanban </h2>
+                <img src={kamba} alt="" class="kamba"/>
                 <p>
                     Kanban es una técnica ágil de gestión visual que permite controlar el flujo de trabajo de manera continua, sin necesidad de dividirlo en sprints o etapas con tiempos fijos. 
                     Su funcionamiento se basa en el uso de un tablero donde el equipo registra las tareas o historias de usuario, organizándolas según su estado: “pendiente”, “en curso” y “terminado”. 
                     Este tablero se adapta a las necesidades del proyecto e incluso puede incluir fases adicionales como “testeado” o “validado”. Kanban ofrece una visión clara y compartida del avance del trabajo, 
                     facilitando la comunicación dentro del equipo y permitiendo detectar cuellos de botella o retrasos.
                 </p>
-                //Grafico
-            </div>
-            
+
+
+
                 <h2>XP</h2>
                 <p>
                     Extreme Programming (XP) es una metodología ágil centrada en la calidad del código y en la satisfacción del cliente. 
                     Promueve la entrega continua de versiones funcionales, el trabajo en equipo y la retroalimentación constante. 
                     Se enfoca especialmente en las buenas prácticas de programación.
                 </p>
-                //Grafico
+                <img src={XP} alt="" class="XP"/>
+            </div>
     </main>
     );
 }

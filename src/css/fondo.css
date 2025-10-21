@@ -81,3 +81,10 @@ h3{
 p{
     text-align: left;
 }
+
+img.pc {
+    float: left;
+    margin: 10px;
+    width: 300px;
+    height: auto;
+}

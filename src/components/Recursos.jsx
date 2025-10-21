@@ -11,7 +11,7 @@ export const Recursos = () =>{
     return(
         <main>
             <div class="marco">
-                <h1>Recursos</h1>
+                <h1>RECURSOS</h1>
                 <img src={Libro} alt="" class="pc" />
             </div>
 

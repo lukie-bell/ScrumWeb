@@ -12,7 +12,7 @@ export const SGCS = () =>{
         <main>
             <div class="marco">
                 <h1>GESTION DE LA CALIDAD DEL SOFTWARE  </h1>
-                <img src={PC} alt=""  class="pc" width={300} height={300}/>
+                <img src={PC} alt=""  class="pc"/>
             </div>
 
             <div class="texto">
@@ -98,7 +98,7 @@ export const SGCS = () =>{
             </p>
 
             
-            
+            <img src={herramientas} alt="" class="herramientas" />
 
             <h3>•Herramientas de gestión de pruebas</h3>
             <p>
@@ -107,11 +107,6 @@ export const SGCS = () =>{
                 . Con su uso conjunto, se mejora la seguridad, la organización del trabajo y se aumenta la confianza en el producto final.
             </p>
 
-
-            
-            
-
-            <img src={herramientas} alt="" class="herramientas" />
             <h3>•Seguimiento de defectos:</h3>
             <p>
                 Registran errores detectados durante las pruebas, asignan prioridades y los distribuyen entre los desarrolladores para su corrección. Fundamentales para mantener trazabilidad y garantizar que no queden problemas sin resolver.
@@ -123,11 +118,6 @@ export const SGCS = () =>{
             <p>
                 Examinan el código fuente para detectar malas prácticas, vulnerables o posibles fallos antes de ejecutar el software. Ejemplos son SonarQube para análisis estático y Selenium 
             </p>
-            
-            
-            
-            
-            
             </div>
 
     </main>
