@@ -4,6 +4,7 @@ import {} from "../css/Nosotros.css";
 import PC from "../assets/pc.png";
 import nahuel from "../assets/nauel.jpg";
 import agus from "../assets/yo.jpeg";
+import blaze from "../assets/blaze.png";
 export const Nosotros = () =>{
         //const navigate = useNavigate();
     return(
@@ -15,7 +16,7 @@ export const Nosotros = () =>{
             <div class="texto">
                 <h2>¿Quienes somos?</h2>
                 <p>
-                    Texto
+                    Somos AAP, la UNICA asociacion anti-pala de todo neuquen, que nos dedicamos a crear paginas web usando la metodologia SCRUM, este equipo muy probablemente se vaya a disolver despues de su primer proyecto.
                 </p>
                 <div class="equipo">
                     <div class="miembro">
@@ -25,7 +26,7 @@ export const Nosotros = () =>{
                     </div>
 
                 <div class="miembro">
-                <img src="img/blaze.jpg" alt="Foto de perfil" class="avatar" />
+                <img src= {blaze} alt="Foto de perfil" class="avatar" />
                 <h3 class="nombre">blaze esandi</h3>
                 <p class="rol">diseñador/tester</p>
                 </div>

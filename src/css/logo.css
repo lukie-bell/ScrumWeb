@@ -77,4 +77,16 @@ nav li:hover {
   border-radius: 10px;
 }
 
+nav a.active {/*  se mantiene selecionada*/
+  background-color: #0d243f;
+  color: #07c4e1;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: background-color 0.3s, color 0.3s;
+}
 
+
+nav a.active:hover {
+  color: white;
+  transform: none;
+}

@@ -97,7 +97,6 @@ export const Procesos = () =>{
                     Scrum es una metodología ágil que organiza el trabajo en ciclos cortos llamados SPRINTS, donde se entregan versiones funcionales del producto. 
                     Se basa en la colaboración, la mejora continua y la adaptación a los cambios. Su objetivo es entregar software de calidad de forma rápida y flexible.
                 </p>
-                //Grafico
 
                 <h2>Kanban </h2>
                 <img src={kamba} alt="" class="kamba"/>

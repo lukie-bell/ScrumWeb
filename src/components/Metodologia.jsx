@@ -6,6 +6,7 @@ import scrum_esjemplo from "../assets/imagen_2025-10-20_132429446-removebg-previ
 import Siclo from "../assets/siclo_sprint.png";
 import roles from "../assets/Roles-SCRUM.jpg"
 import kambam from "../assets/kamban.png"
+import EX from "../assets/EX_graf.png"
 export const Metodologia = () =>{
         //const navigate = useNavigate();
     return(
@@ -124,6 +125,25 @@ export const Metodologia = () =>{
 
                 <h3>SUPERVISADOR O LIDER</h3>
                 <p>compuesto por los miembros que realizan las tareas técnicas, de diseño o documentación. Su trabajo se centra en mantener el ritmo del flujo y cumplir los plazos sin comprometer la calidad.</p>
+                
+
+                <h2>XP(Extreme Programming)</h2>
+                <p>Extreme Programming (XP) es una metodología ágil centrada en la calidad del código y en la satisfacción del cliente. Promueve la entrega continua de versiones funcionales, el trabajo en equipo y la retroalimentación constante. Se enfoca especialmente en las buenas prácticas de programación.</p>
+                <img src={EX} alt=""  class="kamban"/>
+                <h3>VENTAJA</h3>
+                <p>Permite detectar errores de forma temprana, garantizando un software más estable y confiable. Fomenta la colaboración constante, mejora la calidad del código y facilita la adaptación a los cambios del cliente. La práctica de trabajar en pareja reduce errores, aumenta el aprendizaje mutuo y eleva la productividad. Al realizar entregas frecuentes, el cliente puede ver avances reales en poco tiempo.</p>
+                <h3>Desventajas</h3>
+                <p>Requiere un alto nivel de disciplina y compromiso del equipo, además de experiencia técnica sólida para aplicar correctamente las prácticas de XP. Puede resultar difícil de implementar en proyectos grandes o con equipos distribuidos. La programación en pareja puede aumentar los costos iniciales y si no se gestiona bien, generar conflictos o pérdida de eficiencia.</p>
+                
+                <h2>ROLES</h2>
+                <h3>Programadores</h3>
+                <p> trabajan en pares para garantizar un código limpio, comprensible y libre de errores. Son responsables de aplicar buenas prácticas y mantener la calidad técnica del proyecto.</p>
+
+                <h3>Cliente</h3>
+                <p>participa activamente durante todo el proceso, aportando requisitos, validando las funciones y priorizando las necesidades del negocio. Su retroalimentación es clave para orientar el desarrollo.</p>
+                
+                <h3>Coach o facilitador</h3>
+                <p>se encarga de guiar al equipo en la correcta aplicación de las prácticas de XP, fomentar la colaboración, resolver conflictos y promover la mejora continua dentro del grupo.</p>
 
             </div>
     </main>
